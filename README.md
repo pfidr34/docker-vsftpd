@@ -4,7 +4,6 @@ Based on fauria/vsftpd
 ![docker_logo](https://raw.githubusercontent.com/artjomsk/docker-vsftpd/master/docker_139x115.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/akue/vsftpd.svg?style=plastic)](https://hub.docker.com/r/akue/vsftpd/)
-[![Docker Build Status](https://img.shields.io/docker/build/akue/vsftpd.svg?style=plastic)](https://hub.docker.com/r/akue/vsftpd/builds/)
 
 This Docker container implements a vsftpd server, with the following features:
 
