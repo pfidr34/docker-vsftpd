@@ -1,10 +1,10 @@
 # akue/vsftpd
 Based on fauria/vsftpd
 
-![docker_logo](https://raw.githubusercontent.com/fauria/docker-vsftpd/master/docker_139x115.png)
+![docker_logo](https://raw.githubusercontent.com/artjomsk/docker-vsftpd/master/docker_139x115.png)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/fauria/vsftpd.svg?style=plastic)](https://hub.docker.com/r/fauria/vsftpd/)
-[![Docker Build Status](https://img.shields.io/docker/build/fauria/vsftpd.svg?style=plastic)](https://hub.docker.com/r/fauria/vsftpd/builds/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/akue/vsftpd.svg?style=plastic)](https://hub.docker.com/r/akue/vsftpd/)
+[![Docker Build Status](https://img.shields.io/docker/build/akue/vsftpd.svg?style=plastic)](https://hub.docker.com/r/akue/vsftpd/builds/)
 
 This Docker container implements a vsftpd server, with the following features:
 
@@ -15,7 +15,7 @@ This Docker container implements a vsftpd server, with the following features:
  * SSL support
  * Logging to a file or STDOUT.
 
-### Installation from [Docker registry hub](https://registry.hub.docker.com/u/fauria/vsftpd/).
+### Installation from [Docker registry hub](https://registry.hub.docker.com/u/akue/vsftpd/).
 
 You can download the image with the following command:
 
