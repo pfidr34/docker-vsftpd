@@ -33,6 +33,8 @@ ENV LOCAL_UMASK 077
 ENV SSL_ENABLE NO
 ENV TLS_CERT cert.pem
 ENV TLS_KEY key.pem
+ENV REQUIRE_CERT NO
+ENV CA_CERTS_FILE cacerts.pem
 
 
 COPY vsftpd.conf /etc/vsftpd/

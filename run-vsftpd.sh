@@ -51,6 +51,11 @@ if [ "$SSL_ENABLE" = "YES" ]; then
 	echo "ssl_ciphers=HIGH" >> /etc/vsftpd/vsftpd.conf
 	echo "rsa_cert_file=/etc/vsftpd/cert/$TLS_CERT" >> /etc/vsftpd/vsftpd.conf
 	echo "rsa_private_key_file=/etc/vsftpd/cert/$TLS_KEY" >> /etc/vsftpd/vsftpd.conf
+        if [ "$REQUIRE_CERT" = "YES" ]; then
+            echo "require_cert=YES" >> /etc/vsftpd/vsftpd.conf
+            echo "validate_cert=YES" >> /etc/vsftpd/vsftpd.conf
+            echo "ca_certs_file=/etc/vsftpd/cert/$CA_CERTS_FILE" >> /etc/vsftpd/vsftpd.conf
+        fi
 fi
 
 # Get log file path
