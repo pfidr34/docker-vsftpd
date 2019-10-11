@@ -139,6 +139,24 @@ This image uses environment variables to allow the configuration of some paramet
 
 ----
 
+----
+
+* Variable name: `REQUIRE_CERT`
+* Default value: NO
+* Accepted values: YES or NO.
+* Description: Set to YES if you want require client auth cert and validate it on server.
+
+----
+
+----
+
+* Variable name: `CA_CERTS_FILE`
+* Default value: cacerts.pem
+* Accepted values: Any string represanting filename with extension
+* Description: Trust store filename which should be located in `/etc/vsftpd/cert/` of container.
+
+----
+
 Exposed ports and volumes
 ----
 
