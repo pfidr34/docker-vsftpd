@@ -66,8 +66,8 @@ if [ ! $LOG_STDOUT ]; then
 cat << EOB
 	*************************************************
 	*                                               *
-	*    Docker image: akue/vsftd                   *
-	*    https://github.com/artjomsk/docker-vsftpd  *
+	*    Docker image: pfidr/vsftd                  *
+	*    https://github.com/pfidr34/docker-vsftpd   *
 	*                                               *
 	*************************************************
 
