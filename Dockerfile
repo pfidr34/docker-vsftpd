@@ -1,12 +1,12 @@
 FROM centos:7
 
-ARG USER_ID=14
-ARG GROUP_ID=50
+ARG USER_ID=8675309
+ARG GROUP_ID=8675309
 
-MAINTAINER Artjoms Kurbatskis <aku@e-controls.eu>
+MAINTAINER pfidr
 LABEL Description="vsftpd Docker image based on Centos 7. Supports passive mode, SSL and virtual users." \
 	License="Apache License 2.0" \
-	Usage="docker run -d -p [HOST PORT NUMBER]:21 -v [HOST FTP HOME]:/home/vsftpd akue/vsftpd" \
+	Usage="docker run -d -p [HOST PORT NUMBER]:21 -v [HOST FTP HOME]:/home/vsftpd pfidr/vsftpd" \
 	Version="1.0"
 
 RUN yum -y update && yum clean all
